@@ -4,6 +4,8 @@ import { v4 as uuidV4 } from "uuid";
 
 const BudgetsContext = React.createContext(null);
 
+export const UNCATEGORIZED_BUDGET_ID = "No category";
+
 export const useBudgets = () => {
   return useContext(BudgetsContext);
 };
